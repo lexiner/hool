@@ -1,5 +1,5 @@
 <?php
-namespace Webman\saiadmin;
+namespace Webman\htool;
 
 class Install
 {

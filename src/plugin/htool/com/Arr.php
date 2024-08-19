@@ -1,6 +1,6 @@
 <?php
 
-namespace plugin\saiadmin\tool;
+namespace plugin\htool\com;
 
 /**
  * 数组处理类
