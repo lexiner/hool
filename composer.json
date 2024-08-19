@@ -1,0 +1,20 @@
+{
+    "name": "lexiner/htool",
+    "description": "webman plugin",
+    "type": "library",
+    "license": "MIT",
+	"require": {
+		"php": "> ^7.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Webman\\htool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lexiner",
+            "email": "996265368@qq.com"
+        }
+    ]
+}
