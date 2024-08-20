@@ -1,7 +1,7 @@
 {
     "name": "lexiner/htool",
     "description": "一个工具库，功能很简单，封装了常用的函数、基础功能等。只为提高你的开发效率，多多陪家人。",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
 	"require": {
 		"php": ">= 7.0"
@@ -16,5 +16,7 @@
             "name": "lexiner",
             "email": "996265368@qq.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
