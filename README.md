@@ -15,5 +15,3 @@ composer require lexiner/htool
 <h1>LICENSE</h1>
 This project is open-sourced software licensed under the MIT.
 </div>
-
-</div>
