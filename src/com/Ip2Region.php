@@ -38,9 +38,13 @@ class Ip2Region
      *
      * @param   ip2regionFile
      */
-    public function __construct()
+    public function __construct($dbFilePath='')
     {
-        $this->dbFile = __DIR__.'/ip2region.db';
+        if($dbFilePath){
+            $this->dbFile = $dbFilePath;//项目绝对地址哦
+        }else{
+            $this->dbFile = __DIR__.'/ip2region.db';
+        }
     }
 
     /**
